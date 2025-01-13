@@ -6,6 +6,19 @@ This is a full-stack restaurant application with a Java Spring Boot backend and 
 - **Testing**: Unit tests for backend and frontend functionalities.
 
 ---
+### Backend (Java Spring Boot)
+
+The backend is built with Java Spring Boot using the **RESTful API** architecture. The application follows the **Controller-Service-Repository** structure for organizing the code:
+
+- **Controller**: The controller classes handle incoming HTTP requests, map them to service layer methods, and return the responses. The controllers are responsible for defining the API endpoints (such as `/menus`, `/orders`).
+  
+- **Service**: The service layer contains the business logic of the application. It acts as an intermediary between the controller and repository layers. The services process data, handle validation, and interact with repositories to fetch or modify the database.
+
+- **Repository**: The repository classes interact with the database through Spring Data JPA. They define data access methods such as `findAll()`, `findById()`, `save()`, and others. The repositories abstract the database interactions and provide the necessary methods to persist and retrieve data.
+
+This structure is designed to separate concerns and make the code more maintainable, testable, and scalable.
+
+
 
 ## Requirements of the Case 
 
