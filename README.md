@@ -2,7 +2,7 @@
 This is a full-stack restaurant application with a Java Spring Boot backend and a React-based frontend. It allows users to view menus for a specific day, create orders, update order status, and view order details. The application consists of the following components:
 
 - **Backend**: Built with Java Spring Boot (RESTful API).
-- **Frontend**: Built with React.js (SPA).
+- **Frontend**: Built with React.js .
 - **Testing**: Unit tests for backend and frontend functionalities.
 
 ---
